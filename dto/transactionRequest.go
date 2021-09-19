@@ -1,6 +1,6 @@
 package dto
 
-import "github.com/vrlins/banking/errs"
+import "github.com/vrlins/banking-lib/errs"
 
 const WITHDRAWAL = "withdrawal"
 const DEPOSIT = "deposit"

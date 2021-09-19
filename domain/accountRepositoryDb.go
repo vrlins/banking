@@ -4,8 +4,8 @@ import (
 	"strconv"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/vrlins/banking/errs"
-	"github.com/vrlins/banking/logger"
+	"github.com/vrlins/banking-lib/errs"
+	"github.com/vrlins/banking-lib/logger"
 
 	_ "github.com/go-sql-driver/mysql"
 )

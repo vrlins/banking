@@ -3,7 +3,7 @@ package dto
 import (
 	"strings"
 
-	"github.com/vrlins/banking/errs"
+	"github.com/vrlins/banking-lib/errs"
 )
 
 type NewAccountRequest struct {

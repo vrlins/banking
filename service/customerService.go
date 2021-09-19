@@ -1,9 +1,9 @@
 package service
 
 import (
+	"github.com/vrlins/banking-lib/errs"
 	"github.com/vrlins/banking/domain"
 	"github.com/vrlins/banking/dto"
-	"github.com/vrlins/banking/errs"
 )
 
 type CustomerService interface {

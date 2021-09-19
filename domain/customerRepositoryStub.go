@@ -1,6 +1,6 @@
 package domain
 
-import "github.com/vrlins/banking/errs"
+import "github.com/vrlins/banking-lib/errs"
 
 type CustomerRepositoryStub struct {
 	customers []Customer

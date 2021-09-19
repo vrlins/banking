@@ -5,8 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
+	"github.com/vrlins/banking-lib/errs"
 	"github.com/vrlins/banking/domain"
-	"github.com/vrlins/banking/errs"
 	"github.com/vrlins/banking/service"
 )
 
@@ -18,7 +18,7 @@ func (handler *CustomerHandlers) getAllCustomers(w http.ResponseWriter, r *http.
 	status := r.URL.Query().Get("status")
 
 	if status != "inactive" && status != "active" && status != "" {
-		writeResponse(w, http.StatusBadRequest, errs.NewBadRequestError("Invalid parameters"))
+		writeResponse(w, http.StatusBadRequest, errs.NewValidationError("Invalid parameters"))
 		return
 	}
 

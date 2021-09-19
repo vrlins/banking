@@ -1,8 +1,8 @@
 package domain
 
 import (
+	"github.com/vrlins/banking-lib/errs"
 	"github.com/vrlins/banking/dto"
-	"github.com/vrlins/banking/errs"
 )
 
 type FilterByStatus int

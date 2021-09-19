@@ -3,9 +3,9 @@ package service
 import (
 	"time"
 
+	"github.com/vrlins/banking-lib/errs"
 	"github.com/vrlins/banking/domain"
 	"github.com/vrlins/banking/dto"
-	"github.com/vrlins/banking/errs"
 )
 
 const dbTSLayout = "2006-01-02 15:04:05"
